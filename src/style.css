@@ -67,7 +67,7 @@
 }
 
 A:link {text-decoration: none }
-A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
+/* A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none } */
 A:hover { color:white; font-family: arial; text-decoration: none }
 
 .hr{
@@ -182,8 +182,14 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   display: none;
 }
 .bg-light {
-  background-color: #f8f9fa!important;
+  background-color: rgb(232, 232, 232) !important ;
   height: 545px;
+  /* display: flex; */
+ 
+}
+.bg-light2 {
+  background-color: rgb(232, 232, 232) !important ;
+  /* height: 545px; */
   /* display: flex; */
  
 }
@@ -191,12 +197,11 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-top: 178px;
+  margin-top: 8px;
   font-size: 40px;
 }
 .letraHabilidades{
-  font-size: 40px;
-  margin-left: 35px;
+  padding: 13px;
 
 }
 .campana{
@@ -210,10 +215,12 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 
 
+
 .aboutimg{
   display: flex;
-  width: 100%;
+  width: 50%;
   position: absolute;
+  margin-left: 230px;
 
 }
 .contactame1{
@@ -238,7 +245,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
-  height: 527px;
+  height: 500px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -260,6 +267,34 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   opacity: .5;
   transition: opacity .6s ease;
 }
+.about1{
+  margin-left: 150px;
+
+}
+.aboutimg2{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  margin-left: 250px;
+
+}
+
+.acerca{
+  height: 634px;
+  background-color: rgb(247, 237, 237);
+}
+.planta23{
+  /* display: flex; */
+  /* position: relative; */
+  /* margin-left: 5px; */
+  /* margin-top: 128px; */
+  /* z-index: 2000; */
+  /* width: 280px;
+  height: 280px;
+  border-radius: 150px; */
+  display: none;
+}
+
 
    
 }
@@ -338,7 +373,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   background-color: #d6d6d6;
 }
 A:link {text-decoration: none }
-A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
+/* A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none } */
 A:hover { color:white; font-family: arial; text-decoration: none }
 
 .icon{
@@ -376,6 +411,10 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   flex-direction: column;
   margin-top: 8px;
   font-size: 40px;
+}
+
+.letraHabilidades{
+  padding: 13px;
 }
 .logo2 {
 
@@ -455,12 +494,19 @@ A:hover { color:white; font-family: arial; text-decoration: none }
     margin-left: 5px;
     margin-top: -120px;
     /* z-index: 2000; */
-
 }
+
+
 .bg-light {
-  background-color: #f8f9fa!important;
+  background-color: rgb(232, 232, 232) !important ;
   height: 545px;
   /* display: flex; */
+}
+.bg-light2 {
+  background-color: rgb(232, 232, 232) !important ;
+  /* height: 545px; */
+  /* display: flex; */
+ 
 }
 .campana{
   display: flex;
@@ -477,7 +523,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 
 .about {
- width: 60%;
+ width: 73%;
 }
 .aboutimg{
   display: flex;
@@ -503,7 +549,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
-  height: 727px;
+  height: 540px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -525,8 +571,40 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   opacity: .5;
   transition: opacity .6s ease;
 }
+.about1{
+  margin-left: 150px;
 
+}
+.aboutimg2{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  margin-left: 290px;
 
+}
+.aboutimg{
+  display: flex;
+  width: 50%;
+  position: absolute;
+  margin-left: 230px;
+
+}
+.acerca{
+  height: 570px;
+  background-color: rgb(247, 237, 237);
+}
+
+.planta2{
+  display: flex;
+  position: absolute;
+  margin-left: -70px;
+  margin-top: 78px;
+  /* z-index: 2000; */
+  width: 280px;
+  height: 280px;
+  border-radius: 150px;
+
+}
 
 }
 
@@ -573,7 +651,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
     }
 
     A:link {text-decoration: none }
-    A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
+    /* A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none } */
     A:hover { color:white; font-family: arial; text-decoration: none }
     
 .contenido {
@@ -787,10 +865,18 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   margin-left: 930px; */
 }
 .bg-light {
-  background-color: #f8f9fa!important;
-  height: 640px;
+  background-color: rgb(232, 232, 232) !important ;
+  height: 740px;
   display: flex;
 }
+.bg-light2 {
+  background-color: rgb(232, 232, 232) !important ;
+  /* height: 545px; */
+  /* display: flex; */
+ 
+}
+
+
 .campana{
   display: flex;
   margin-top: -10px;
@@ -808,7 +894,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 
 .about {
- width: 60%;
+ width: 70%;
 }
 .aboutimg{
   display: flex;
@@ -834,7 +920,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
-  height: 1027px;
+  height: 427px;
 }
 .carousel-indicators [data-bs-target] {
   color: black;
@@ -856,11 +942,33 @@ A:hover { color:white; font-family: arial; text-decoration: none }
   transition: opacity .6s ease;
 }
 
-
+.about1{
+  margin-left: 177px;
 
 }
+.aboutimg2{
+  display: flex;
+  width: 30%;
+  position: absolute;
 
+}
+.acerca{
+  height: 645px;
+  background-color: rgb(247, 237, 237);
+}
 
+.planta2{
+  display: flex;
+  position: absolute;
+  margin-left: 78px;
+  margin-top: 78px;
+  /* z-index: 2000; */
+  width: 280px;
+  height: 280px;
+  border-radius: 150px;
+}
+
+}
 
 @media (min-width : 1901px) and (max-width: 2500px) { 
   * {
@@ -934,7 +1042,7 @@ A:hover { color:white; font-family: arial; text-decoration: none }
 }
 
 A:link {text-decoration: none }
-A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
+/* A:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none } */
 A:hover { color:white; font-family: arial; text-decoration: none }
 
 .icon{
@@ -1043,6 +1151,9 @@ color: whitesmoke;
 .Habilidades{
   display: none;
 }
+/* .letraHabilidades {
+  padding: 8px;
+} */
 
 .logo2 {
   width: 1620px;
@@ -1080,6 +1191,12 @@ color: whitesmoke;
   margin: 40px;
   font-size: 40px;
 }
+
+.acerca {
+  height: 545px;
+  background-color: rgb(247, 237, 237);
+}
+
 .contenidoAcerca{
   margin: 80px;
   /* margin-bottom: 50px; */
@@ -1115,11 +1232,30 @@ color: whitesmoke;
   margin-top: -120px;
   z-index: 1;
 }
+
+.planta2{
+  display: flex;
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 99px;
+  /* z-index: 2000; */
+  width: 280px;
+  height: 280px;
+  border-radius: 150px;
+}
+
 .bg-light {
-  background-color: #f8f9fa!important;
+  background-color: rgb(232, 232, 232) !important ;
   height: 545px;
   display: flex;
 }
+.bg-light2 {
+  background-color: rgb(232, 232, 232) !important ;
+  /* height: 545px; */
+  /* display: flex; */
+ 
+}
+
 .campana{
   display: flex;
   margin-top: -10px;
@@ -1138,11 +1274,17 @@ color: whitesmoke;
 }
 
 .about {
- width: 50%;
+ width: 76%;
 }
 .aboutimg{
   display: flex;
   width: 40%;
+  position: absolute;
+
+}
+.aboutimg2{
+  display: flex;
+  width: 30%;
   position: absolute;
 
 }
@@ -1165,7 +1307,7 @@ color: whitesmoke;
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
-  height: 1327px;
+  height: 544px;
 }
 .carousel-indicators [data-bs-target] {
   color: black;
@@ -1205,6 +1347,12 @@ color: whitesmoke;
   border-radius: 1.25rem;
   /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color 0.15s ease-in-out,box-shadow .15s ease-in-out; */
 }
+
+.about1{
+  margin-left: 252px;
+
+}
+
 
 
 }
