@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Helvetica Neue' ;
   }
   p {
     margin-bottom: 30px;
@@ -20,10 +19,7 @@
     z-index: 12;
   }
   
-  /* nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  
-  nav ul {
+   nav ul {
     list-style: none;
     overflow: hidden; /* Limpiamos errores de float */
   }
@@ -46,36 +42,30 @@
 
 .am {
   border-radius: 50px;
-  /* background-color: rgb(242,242,242); */
-  /* border-color: #ffe8d6; */
   padding: 17px;
   color: black !important;
   font-size: 16px;
-  /* display: flex; */
   margin-top: 15px;
-  /* border-style: ridge; */
-  /* border-width: thin; */
   height: 58px;
   width: 58px;
   margin-left: 2px;
-  /* background-color: #ffe8d6; */
   background-color: rgb(168, 168, 168);
 }
 
 .am:hover {
   background-color: #d6d6d6;
 }
-.proyecto:link {text-decoration: none }
-.proyecto:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto:link {color: rgb(173, 173, 173);text-decoration: none }
+.proyecto:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.proyecto:hover { color:white; text-decoration: none }
 
-.proyecto2:link {text-decoration: none }
-.proyecto2:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto2:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto2:link { color: rgb(173, 173, 173); text-decoration: none }
+.proyecto2:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.proyecto2:hover { color:white;  text-decoration: none }
 
-.contactame1:link {text-decoration: none }
-.contactame1:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.contactame1:hover { color:white; font-family: arial; text-decoration: none }
+.contactame1:link { color: rgb(173, 173, 173); text-decoration: none }
+.contactame1:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.contactame1:hover { color:white; text-decoration: none }
 
 .hr{
   margin-top: 30px; 
@@ -86,6 +76,7 @@
 .icon{
   width: 16%;
 }
+
 
 .card {
   position: relative;
@@ -155,7 +146,6 @@
 }
 .contenidoAcerca{
   margin: 80px;
-  /* margin-bottom: 50px; */
 }
 
 .contacto{
@@ -201,16 +191,16 @@
 }
 .bg-light {
   background-color: rgb(232, 232, 232) !important ;
-  height: 685px;
-  /* display: flex; */
+  height: 706px;
+
  
 }
 .bg-light2 {
   background-color: rgb(232, 232, 232) !important ;
-  /* height: 545px; */
-  /* display: flex; */
- 
+  margin-top: 171px;
+
 }
+
 .Habilidades {
   display: flex;
   justify-content: flex-start;
@@ -236,9 +226,9 @@
 
 .aboutimg{
   display: flex;
-  width: 50%;
+  width: 40%;
   position: absolute;
-  /* margin-left: 230px; */
+  margin-left: 98px;
 
 }
 .contactame1{
@@ -291,9 +281,18 @@
 }
 .aboutimg2{
   display: flex;
-  width: 30%;
+  width: 50%;
   position: absolute;
-  /* margin-left: 250px; */
+  justify-content: center;
+  margin-left: 50px;
+}
+.aboutimg3{
+  display: flex;
+  width: 40%;
+  position: absolute;
+  justify-content: center;
+  margin-left: 65px;
+
 
 }
 
@@ -302,26 +301,39 @@
   background-color: rgb(247, 237, 237);
 }
 .planta23{
-  /* display: flex; */
-  /* position: relative; */
-  /* margin-left: 5px; */
-  /* margin-top: 128px; */
-  /* z-index: 2000; */
-  /* width: 280px;
-  height: 280px;
-  border-radius: 150px; */
   display: none;
 }
 
+.btnCv {
+ background-color:  rgb(168, 168, 168);
+ border-radius: 10%;
+ color: white !important;
+ size: 25px;
+ text-decoration: none;
+ margin-left: 4px;
+ height: 20px;
 
-   
 }
+.btnCv:link {text-decoration: none }
+.btnCv:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.btnCv:hover { color:white;  text-decoration: none; height: 20px; }
+ 
+
+.carousel-inner {
+  display: flex;
+  flex-flow: wrap;
+} 
+
+
+
+} 
 
 
 @media (min-width : 768px) and (max-width: 1100px) {
   * {
     padding: 0;
     margin: 0;
+   
   }
   p {
     margin-bottom: 30px;
@@ -339,12 +351,11 @@
     z-index: 12;
   }
   
-  /* nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  
+ 
   nav ul {
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    overflow: hidden; 
+  
   }
   nav ul li {
     margin-left: -6px;
@@ -371,36 +382,30 @@
 
 .am {
   border-radius: 50px;
-  /* background-color: rgb(242,242,242); */
-  /* border-color: #ffe8d6; */
   padding: 17px;
   color: black !important;
   font-size: 16px;
-  /* display: flex; */
   margin-top: 15px;
-  /* border-style: ridge; */
-  /* border-width: thin; */
   height: 58px;
   width: 58px;
   margin-left: 2px;
-  /* background-color: #ffe8d6; */
   background-color: rgb(168, 168, 168);
 }
 
 .am:hover {
   background-color: #d6d6d6;
 }
-.proyecto:link {text-decoration: none }
-.proyecto:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto:link {color: rgb(173, 173, 173);text-decoration: none }
+.proyecto:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.proyecto:hover { color:white; text-decoration: none }
 
-.proyecto2:link {text-decoration: none }
-.proyecto2:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto2:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto2:link { color: rgb(173, 173, 173); text-decoration: none }
+.proyecto2:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.proyecto2:hover { color:white;  text-decoration: none }
 
-.contactame1:link {text-decoration: none }
-.contactame1:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.contactame1:hover { color:white; font-family: arial; text-decoration: none }
+.contactame1:link { color: rgb(173, 173, 173); text-decoration: none }
+.contactame1:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.contactame1:hover { color:white; text-decoration: none }
 
 .icon{
   width: 16%;
@@ -414,10 +419,9 @@
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  /* border: 1px solid rgba(0,0,0,.125);  */
   border-radius: .25rem;
   margin: 26px;
-  /* padding: 9px;*/
+
 }
 
 [class^=devicon-], [class*=" devicon-"] {
@@ -456,7 +460,6 @@
   margin-bottom: -30px;
 }
 
-
 .enunciado{
   margin-top: -186px;
 }
@@ -479,7 +482,6 @@
   margin: 80px;
  
 }
-
 
 .proyecto{
   margin-left: 31px;
@@ -519,26 +521,23 @@
     position: relative;
     margin-left: 5px;
     margin-top: -120px;
-    /* z-index: 2000; */
 }
 
 
 .bg-light {
   background-color: rgb(232, 232, 232) !important ;
   height: 545px;
-  /* display: flex; */
+ 
 }
 .bg-light2 {
   background-color: rgb(232, 232, 232) !important ;
-  /* height: 545px; */
-  /* display: flex; */
- 
+  margin-top: 171px;
+  
 }
 .campana{
   display: flex;
   margin-top: -10px;
   width: 40px;
-  /* height: 95px; */
   margin-left: 46px;
 }
 .aboutMe {
@@ -608,6 +607,14 @@
   margin-left: 290px;
 
 }
+
+.aboutimg3{
+  display: flex;
+  width: 30%;
+  position: absolute;
+
+
+}
 .aboutimg{
   display: flex;
   width: 50%;
@@ -625,12 +632,81 @@
   position: absolute;
   margin-left: -70px;
   margin-top: 78px;
-  /* z-index: 2000; */
   width: 280px;
   height: 280px;
   border-radius: 150px;
+}
+
+.btnCv {
+  background-color:  rgb(168, 168, 168);
+ border-radius: 10%;
+ color: white !important;
+ size: 25px;
+ text-decoration: none;
+ margin-left: 4px;
+ height: 20px;
 
 }
+.btnCv:link {text-decoration: none }
+.btnCv:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.btnCv:hover { color:white;  text-decoration: none; height: 20px; }
+
+/* prueba 2 carrusel pokemon */
+
+
+ .carousel {
+  position: relative;
+  flex-direction: column;
+  
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-inner {
+  display: flex;
+  /* flex-flow: wrap; */
+}
+
+/* .containerText {
+  width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 133px;
+
+} */
+
+
+/* 
+.imgCarrusel{
+  width: 70%;
+
+}
+.tituloProject{
+  font-size: xx-large;
+
+}
+
+.resumenProject{
+  font-size: larger;
+}
+
+.tecnologiasUsadas{
+  font-size: x-large;
+}
+.divLink{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+
+}
+
+.link{
+  margin: 20px;
+
+}  */
 
 }
 
@@ -655,20 +731,17 @@
     z-index: 12;
   }
   
-  /* nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  
-  nav ul {
+ nav ul {
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    overflow: hidden; 
   }
-  nav ul li {
+nav ul li {
     margin-left: -6px;
     float: left;
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
-  nav ul li a {
+nav ul li a {
     display: block;
     padding: 20px;
     color: #fff;
@@ -676,17 +749,17 @@
     margin-top: -3px;
     }
 
-    .proyecto:link {text-decoration: none }
-    .proyecto:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-    .proyecto:hover { color:white; font-family: arial; text-decoration: none }
-    
-    .proyecto2:link {text-decoration: none }
-    .proyecto2:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-    .proyecto2:hover { color:white; font-family: arial; text-decoration: none }
-    
-    .contactame1:link {text-decoration: none }
-    .contactame1:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-    .contactame1:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto:link {color: rgb(173, 173, 173);text-decoration: none }
+.proyecto:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.proyecto:hover { color:white; text-decoration: none }
+
+.proyecto2:link { color: rgb(173, 173, 173); text-decoration: none }
+.proyecto2:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.proyecto2:hover { color:white;  text-decoration: none }
+
+.contactame1:link { color: rgb(173, 173, 173); text-decoration: none }
+.contactame1:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.contactame1:hover { color:white; text-decoration: none }
     
 .contenido {
   padding-top: 150px;
@@ -694,19 +767,13 @@
 
 .am {
   border-radius: 50px;
-  /* background-color: rgb(242,242,242); */
-  /* border-color: #ffe8d6; */
   padding: 17px;
   color: black !important;
   font-size: 16px;
-  /* display: flex; */
   margin-top: 15px;
-  /* border-style: ridge; */
-  /* border-width: thin; */
   height: 58px;
   width: 58px;
   margin-left: 2px;
-  /* background-color: #ffe8d6; */
   background-color: rgb(168, 168, 168);
 }
 
@@ -729,7 +796,6 @@
   border: 1px solid rgba(0,0,0,.125); 
   border-radius: .25rem;
   margin: 46px;
-  /* padding: 9px;*/
 }
 
 .hr{
@@ -776,17 +842,7 @@
 #carousel figure i {
   display: block;
   position: absolute;
-  /* left: 10px;
-  top: 10px; */
-  /* width: 100px;
-  height: 100px; */
-  /* border: 2px solid rgba(   0, 0, 0, 0.8 ); */
-  /* line-height: 116px; */
-  /* font-size: 80px; */
-  /* font-weight: bold; */
-  /* color: black; */
   text-align: center;
-  /* margin: 0; */
 }
 
 #carousel {
@@ -803,7 +859,6 @@
   height: 140px;
   position: relative;
   margin: 0 auto 40px;
-  /* border: 1px solid #CCC; */
   perspective: 1800px;
   padding: 60px;
   margin-right: 50px;
@@ -885,7 +940,6 @@
 }
 .planta{
   display: flex;
-  /* position: relative; */
   margin-left: 5px;
   margin-top: -120px;
   z-index: 2000;
@@ -895,8 +949,6 @@
   display: flex;
   position: relative;
   justify-content: center;
-  /* margin-top: -90px;
-  margin-left: 930px; */
 }
 .bg-light {
   background-color: rgb(232, 232, 232) !important ;
@@ -905,8 +957,7 @@
 }
 .bg-light2 {
   background-color: rgb(232, 232, 232) !important ;
-  /* height: 545px; */
-  /* display: flex; */
+  margin-top: 171px;
  
 }
 
@@ -915,7 +966,6 @@
   display: flex;
   margin-top: -10px;
   width: 40px;
-  /* height: 95px; */
   margin-left: 46px;
 }
 
@@ -924,7 +974,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   height: 170px; 
-
 }
 
 .about {
@@ -954,7 +1003,7 @@
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: block;
-  height: 427px;
+  height: 527px;
 }
 .carousel-indicators [data-bs-target] {
   color: black;
@@ -981,11 +1030,28 @@
 
 }
 .aboutimg2{
+  
+    display: flex;
+    width: 50%;
+    position: absolute;
+    margin-top: -113px;
+       
+    margin-left: -92px;
+
+}
+.aboutimg3{
   display: flex;
   width: 30%;
   position: absolute;
-
 }
+
+.aboutimg4{
+  display: flex;
+  width: 30%;
+  position: absolute;
+}
+
+
 .acerca{
   height: 645px;
   background-color: rgb(247, 237, 237);
@@ -994,12 +1060,31 @@
 .planta2{
   display: flex;
   position: absolute;
-  margin-left: 78px;
+  margin-left: -45px;
   margin-top: 78px;
-  /* z-index: 2000; */
   width: 280px;
   height: 280px;
   border-radius: 150px;
+}
+.btnCv {
+  background-color:  rgb(168, 168, 168);
+ border-radius: 10%;
+ color: white !important;
+ size: 25px;
+ text-decoration: none;
+ margin-left: 4px;
+ height: 20px;
+
+}
+.btnCv:link {text-decoration: none }
+.btnCv:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.btnCv:hover { color:white;  text-decoration: none; height: 20px; }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
 }
 
 }
@@ -1025,13 +1110,13 @@
     position: fixed;
     z-index: 12;
   }
+
   
-  /* nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
   
+   
   nav ul {
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    overflow: hidden; 
   }
   nav ul li {
     margin-left: -6px;
@@ -1040,7 +1125,7 @@
     font-size: 16px;
   }
   nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    display: block; 
     padding: 18px;
     color: #fff;
     text-decoration: none;
@@ -1055,19 +1140,13 @@
 
 .am {
   border-radius: 50px;
-  /* background-color: rgb(242,242,242); */
-  /* border-color: #ffe8d6; */
   padding: 17px;
   color: black !important;
   font-size: 16px;
-  /* display: flex; */
   margin-top: 15px;
-  /* border-style: ridge; */
-  /* border-width: thin; */
   height: 58px;
   width: 58px;
   margin-left: 2px;
-  /* background-color: #ffe8d6; */
   background-color: rgb(168, 168, 168);
 }
 
@@ -1075,17 +1154,17 @@
   background-color: #d6d6d6;
 }
 
-.proyecto:link {text-decoration: none }
-.proyecto:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto:link {color: rgb(173, 173, 173);text-decoration: none }
+.proyecto:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.proyecto:hover { color:white; text-decoration: none }
 
-.proyecto2:link {text-decoration: none }
-.proyecto2:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.proyecto2:hover { color:white; font-family: arial; text-decoration: none }
+.proyecto2:link { color: rgb(173, 173, 173); text-decoration: none }
+.proyecto2:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.proyecto2:hover { color:white;  text-decoration: none }
 
-.contactame1:link {text-decoration: none }
-.contactame1:visited {color: rgb(173, 173, 173);  font-family: arial; text-decoration: none }
-.contactame1:hover { color:white; font-family: arial; text-decoration: none }
+.contactame1:link { color: rgb(173, 173, 173); text-decoration: none }
+.contactame1:visited {color: rgb(173, 173, 173);   text-decoration: none }
+.contactame1:hover { color:white; text-decoration: none }
 
 .icon{
   width: 16%;
@@ -1102,7 +1181,6 @@
   border: 1px solid rgba(0,0,0,.125); 
   border-radius: .25rem;
   margin: 46px;
-  /* padding: 9px;*/
 }
 
 .hr{
@@ -1150,17 +1228,7 @@ color: whitesmoke;
 #carousel figure i {
   display: block;
   position: absolute;
-  /* left: 10px;
-  top: 10px; */
-  /* width: 100px;
-  height: 100px; */
-  /* border: 2px solid rgba(   0, 0, 0, 0.8 ); */
-  /* line-height: 116px; */
-  /* font-size: 80px; */
-  /* font-weight: bold; */
-  /* color: black; */
   text-align: center;
-  /* margin: 0; */
 }
 
 #carousel {
@@ -1193,12 +1261,9 @@ color: whitesmoke;
 .Habilidades{
   display: none;
 }
-/* .letraHabilidades {
-  padding: 8px;
-} */
 
 .logo2 {
-  width: 1620px;
+  width: 1510px;
   margin-top: -17px;
   display: flex;
   align-items: center;
@@ -1241,7 +1306,6 @@ color: whitesmoke;
 
 .contenidoAcerca{
   margin: 80px;
-  /* margin-bottom: 50px; */
 }
 .proyectosImg {
   width: 600px;
@@ -1278,9 +1342,8 @@ color: whitesmoke;
 .planta2{
   display: flex;
   position: absolute;
-  margin-left: -80px;
+  margin-left: -161px;
   margin-top: 99px;
-  /* z-index: 2000; */
   width: 280px;
   height: 280px;
   border-radius: 150px;
@@ -1293,24 +1356,21 @@ color: whitesmoke;
 }
 .bg-light2 {
   background-color: rgb(232, 232, 232) !important ;
-  /* height: 545px; */
-  /* display: flex; */
- 
+  margin-top: 171px;
+
 }
 
 .campana{
   display: flex;
   margin-top: -10px;
   width: 40px;
-  /* height: 95px; */
-  margin-left: 46px;
+   margin-left: 46px;
 }
 
 .aboutMe {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
   height: 190px; 
 
 }
@@ -1326,8 +1386,23 @@ color: whitesmoke;
 }
 .aboutimg2{
   display: flex;
+  width: 40%;
+  position: absolute;
+  margin-top: -119px;
+
+}
+.aboutimg3{
+  display: flex;
   width: 30%;
   position: absolute;
+
+}
+
+.aboutimg4{
+  width: 30%;
+  display: flex;
+  position: absolute;
+
 
 }
 .carousel-indicators {
@@ -1337,7 +1412,7 @@ color: whitesmoke;
   display: flex;
   z-index: 2;
   justify-content: center;
-  bottom: -70px;
+  bottom: -57px;
   padding: 0;
   margin-right: 15%;
   margin-bottom: 1rem;
@@ -1374,27 +1449,43 @@ color: whitesmoke;
   display: inline-block;
   font-weight: 800;
   line-height: 1.5;
-  color: #212529;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
-  /* -webkit-user-select: none; */
-  -moz-user-select: none;
   user-select: none;
-  /* background-color: transparent; */
   border: 5px solid transparent;
   padding: .375rem .75rem;
   font-size: 1rem;
   border-radius: 1.25rem;
-  /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color 0.15s ease-in-out,box-shadow .15s ease-in-out; */
 }
 
 .about1{
   margin-left: 252px;
+  width: 40%;
 
 }
 
+.btnCv {
+  background-color:  rgb(168, 168, 168);
+ border-radius: 10%;
+ color: white !important;
+ size: 25px;
+ text-decoration: none;
+ margin-left: 4px;
+ height: 20px;
+
+}
+.btnCv:link {text-decoration: none }
+.btnCv:visited {color: rgb(173, 173, 173);  text-decoration: none }
+.btnCv:hover { color:white;  text-decoration: none; height: 20px; }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 549px;
+}
 
 
 }

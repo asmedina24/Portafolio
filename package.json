@@ -1,0 +1,45 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio",
+  "main": "src/index.html",
+  "keywords": [
+    "javascript",
+    "firebase",
+    "React"
+  ],
+  "scripts": {
+    "htmlhint": "htmlhint dist/*.html ",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
+    "start": "serve src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "htmlhint": "^0.14.0",
+    "regenerator-runtime": "^0.13.1",
+    "serve": "^11.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmedina24/Portafolio.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "Alejandra Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmedina24/Portafolio/issues"
+  },
+  "homepage": "https://github.com/asmedina24/Portafolio#readme"
+}
+
+
+
