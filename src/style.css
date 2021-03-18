@@ -222,8 +222,6 @@
   height: 100px; 
 }
 
-
-
 .aboutimg{
   display: flex;
   width: 40%;
@@ -231,6 +229,22 @@
   margin-left: 98px;
 
 }
+.aboutimg{
+  display: flex;
+  width: 40%;
+  position: absolute;
+  margin-left: 98px;
+
+}
+
+.aboutimg4{
+  display: flex;
+  width: 40%;
+  position: absolute;
+  margin-left: 98px;
+
+}
+
 .contactame1{
   display: none;
 }
@@ -276,6 +290,7 @@
   transition: opacity .6s ease;
 }
 .about1{
+
   margin-left: 150px;
 
 }
@@ -291,10 +306,10 @@
   width: 40%;
   position: absolute;
   justify-content: center;
-  margin-left: 65px;
-
-
+  margin-left: 148px;
 }
+
+
 
 .acerca{
   height: 634px;
@@ -323,9 +338,6 @@
   display: flex;
   flex-flow: wrap;
 } 
-
-
-
 } 
 
 
@@ -333,8 +345,8 @@
   * {
     padding: 0;
     margin: 0;
-   
   }
+
   p {
     margin-bottom: 30px;
   }
@@ -351,7 +363,6 @@
     z-index: 12;
   }
   
- 
   nav ul {
     list-style: none;
     overflow: hidden; 
@@ -363,6 +374,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
   }
+
   nav ul li a {
     display: block;
     padding: 20px;
@@ -480,7 +492,6 @@
 }
 .contenidoAcerca{
   margin: 80px;
- 
 }
 
 .proyecto{
@@ -597,6 +608,7 @@
   transition: opacity .6s ease;
 }
 .about1{
+  margin-top: 50px;
   margin-left: 150px;
 
 }
@@ -612,9 +624,16 @@
   display: flex;
   width: 30%;
   position: absolute;
+}
 
+.aboutimg4{
+  display: flex;
+  width: 40%;
+  position: absolute;
+  margin-left: 98px;
 
 }
+
 .aboutimg{
   display: flex;
   width: 50%;
@@ -657,6 +676,7 @@
  .carousel {
   position: relative;
   flex-direction: column;
+  margin-top: -50px;
   
 }
 
@@ -667,26 +687,6 @@
 
 .carousel-inner {
   display: flex;
-  /* flex-flow: wrap; */
-}
-
-/* .containerText {
-  width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 133px;
-
-} */
-
-
-/* 
-.imgCarrusel{
-  width: 70%;
-
-}
-.tituloProject{
-  font-size: xx-large;
-
 }
 
 .resumenProject{
@@ -706,7 +706,7 @@
 .link{
   margin: 20px;
 
-}  */
+}  
 
 }
 
@@ -878,7 +878,7 @@ nav ul li a {
 
 .logo2 {
 
-  width: 1360px;
+  width: 1130px;
   margin-top: -17px;
   display: flex;
   align-items: center;
@@ -960,8 +960,6 @@ nav ul li a {
   margin-top: 171px;
  
 }
-
-
 .campana{
   display: flex;
   margin-top: -10px;
@@ -1026,23 +1024,30 @@ nav ul li a {
 }
 
 .about1{
+  margin-top: 50px;
   margin-left: 177px;
 
 }
 .aboutimg2{
-  
-    display: flex;
-    width: 50%;
-    position: absolute;
-    margin-top: -113px;
-       
-    margin-left: -92px;
+  display: flex;
+  width: 50%;
+  position: absolute;
+  margin-top: -39px;
+  margin-left: -106px;
 
 }
 .aboutimg3{
   display: flex;
   width: 30%;
   position: absolute;
+}
+
+.aboutimg4{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  margin-top: 50px;
+
 }
 
 .aboutimg4{
@@ -1093,8 +1098,7 @@ nav ul li a {
   * {
     padding: 0;
     margin: 0;
-    
-  }
+ }
   p {
     margin-bottom: 30px;
   }
@@ -1111,9 +1115,6 @@ nav ul li a {
     z-index: 12;
   }
 
-  
-  
-   
   nav ul {
     list-style: none;
     overflow: hidden; 
@@ -1263,8 +1264,8 @@ color: whitesmoke;
 }
 
 .logo2 {
-  width: 1510px;
-  margin-top: -17px;
+  width: 1263px;
+  margin-top: -23px;
   display: flex;
   align-items: center;
 }
@@ -1397,6 +1398,14 @@ color: whitesmoke;
   position: absolute;
 
 }
+.aboutimg4{
+  display: flex;
+  width: 40%;
+  position: absolute;
+  margin-left: 98px;
+  margin-top: 30px;
+
+}
 
 .aboutimg4{
   width: 30%;
@@ -1461,6 +1470,7 @@ color: whitesmoke;
 }
 
 .about1{
+  margin-top: 50px;
   margin-left: 252px;
   width: 40%;
 
@@ -1486,7 +1496,6 @@ color: whitesmoke;
   overflow: hidden;
   height: 549px;
 }
-
 
 }
 
