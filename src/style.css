@@ -275,7 +275,8 @@ text-decoration: none
 .btnCv:hover {
 color:white;
 text-decoration: none;
-height: 20px; }
+height: 20px;
+ }
  
 .carousel-inner {
   position: relative;
@@ -948,12 +949,6 @@ text-decoration: none;
 height: 20px; 
 }
 
-/* .carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 600px;
-} */
 
 /* CARROUSEL NUEVO */
 
